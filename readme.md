@@ -30,6 +30,16 @@ npm i markdown-adjust
 
 – Process and complete: The tool processes all Markdown files in the specified directory and displays the number of updated files (_Updated X/Y files_).
 
+## Contact & support
+
+– Email: info@nhavantuonglai.com.
+
+– Website: nhavantuonglai.com.
+
+If you have any questions or suggestions, don't hesitate to contact us for the quickest support.
+
+Don't forget to star this repository if you find it useful.
+
 # Công cụ sửa thuộc tính markdown (MAM)
 
 _Công cụ sửa thuộc tính markdown (MAM) là một tiện ích Python tự động hóa việc thay đổi thuộc tính ngày tháng (`pubDatetime`) và ảnh bìa (`image`) trong tệp Markdown. Nó giúp cập nhật nội dung nhanh chóng, hỗ trợ tùy chỉnh thư mục, số dòng và URL, với các giá trị mặc định tiện lợi. Phù hợp cho blogger và quản lý nội dung._
@@ -59,3 +69,13 @@ npm i markdown-adjust
 – Cung cấp thông tin tùy chọn: Với ảnh, nhập URL mẫu hoặc dùng mặc định (`https://banmaixanh.vercel.app/image/cover/001-{number}.jpg`). Với ngày, nhập ngày (`YYYY-MM-DD`) hoặc dùng ngày hiện tại.
 
 – Xử lý và hoàn tất: Công cụ xử lý tất cả tệp Markdown trong thư mục đã chọn và hiển thị số lượng tệp được cập nhật (Ví dụ: _Đã cập nhật X/Y tệp_).
+
+## Liên hệ & hỗ trợ
+
+– Email: info@nhavantuonglai.com.
+
+– Website: nhavantuonglai.com.
+
+Nếu bạn có bất kỳ câu hỏi hoặc đề xuất nào, đừng ngần ngại liên hệ với chúng tôi để được hỗ trợ nhanh nhất.
+
+Đừng quên star repository này nếu bạn thấy nó hữu ích.
