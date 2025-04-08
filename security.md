@@ -56,7 +56,7 @@ Các phiên bản sau của dự án này hiện được hỗ trợ với các 
 | Mới nhất| :white_check_mark: |
 | Cũ hơn | :x: |
 
-Chỉ phiên bản mới nhất của phần mềm, được xuất bản trên npm (`markdown-adjust` hoặc `markdown-sitemap`), nhận được các bản cập nhật và vá bảo mật. Người dùng được khuyến khích luôn sử dụng bản phát hành mới nhất để đảm bảo bảo mật tối ưu.
+Chỉ phiên bản mới nhất của phần mềm, được xuất bản trên npm (`markdown-attribute` hoặc `markdown-sitemap`), nhận được các bản cập nhật và vá bảo mật. Người dùng được khuyến khích luôn sử dụng bản phát hành mới nhất để đảm bảo bảo mật tối ưu.
 
 ## Báo cáo lỗ hổng bảo mật
 
