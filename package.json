@@ -1,11 +1,8 @@
 {
-	"name": "markdown-adjust",
-	"version": "1.0.6",
+	"name": "markdown-attribute",
+	"version": "1.0.7",
 	"description": "Công cụ cập nhật ngày tháng, ảnh bìa trên bài viết markdown thông qua trình tệp lệnh.",
 	"main": "index.js",
-	"bin": {
-		"article-markdown": "./bin/cli.js"
-	},
 	"scripts": {
 		"start": "node index.js",
 		"test": "echo \"Error: no test specified\" && exit 1"
