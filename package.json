@@ -7,15 +7,27 @@
 		"start": "node index.js",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
+
 	"keywords": [
+		"npm",
+		"css",
 		"markdown",
+		"image",
+		"datetime",
+		"markdown editor",
+		"class",
+		"python script",
 		"python",
-		"npm"
+		"python3",
+		"python 3",
+		"nhavantuonglai"
 	],
+
 	"repository": {
 		"type": "website",
 		"url": "https://nhavantuonglai.com"
 	},
+
 	"author": "nhavantuonglai",
 	"license": "MIT",
 	"dependencies": {
