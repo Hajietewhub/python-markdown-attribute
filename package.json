@@ -15,6 +15,10 @@
     "python",
     "npm"
   ],
+  "repository": {
+    "type": "website",
+    "url": "https://nhavantuonglai.com/"
+  },
   "author": "nhavantuonglai",
   "license": "MIT",
   "dependencies": {
