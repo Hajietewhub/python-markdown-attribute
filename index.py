@@ -8,7 +8,7 @@ import webbrowser
 
 def messages(msg_type, *args, return_string=False):
 	messages_dict = {
-		"welcome": "article-markdown là công cụ cập nhật ngày tháng, ảnh bìa trên bài viết markdown thông qua trình tệp lệnh, được phát triển bởi @nhavantuonglai.",
+		"welcome": "Markdown attribute modifier là công cụ cập nhật ngày tháng, ảnh bìa trên bài viết markdown thông qua trình tệp lệnh, được phát triển bởi @nhavantuonglai.\nCông cụ giúp cập nhật nội dung nhanh chóng, hỗ trợ tùy chỉnh thư mục, số dòng và URL, với các giá trị mặc định tiện lợi.\nHỗ trợ kỹ thuật: info@nhavantuonglai.com.",
 		"features": "Bước 1: Chọn tính năng:\n1. Thay đổi hình ảnh.\n2. Thay đổi ngày tháng.\n0. Thao tác lại từ đầu.",
 		"feature-prompt": "Vui lòng chọn tính năng: ",
 		"feature-invalid": "Thao tác chọn không hợp lệ.\nVui lòng chọn lại tính năng: ",
@@ -18,7 +18,7 @@ def messages(msg_type, *args, return_string=False):
 		"prompt-url": "Bước 4: Nhập URL ảnh mẫu\nSử dụng mặc định nếu bỏ qua.\n0. Lùi lại 1 bước.\nVui lòng chọn tính chức năng: ",
 		"prompt-date": "Bước 4: Nhập ngày mới nhất của tệp\nSử dụng ngày hôm nay nếu bỏ qua.\n0. Lùi lại 1 bước.\nVui lòng chọn tính năng: ",
 		"invalid-date": "Định dạng ngày không hợp lệ.\nVui lòng chọn lại tính năng: ",
-		"processing": "Đang xử lý...",
+		"processing": "Đang xử lý…",
 		"processed-image": "Đã xử lý tệp: {0} - Số ảnh: {1}.",
 		"processed-date": "Đã xử lý tệp: {0} - Số ngày: {1}.",
 		"file-zero": "Không thể xử lý {0} tệp vì không đúng định dạng.",
