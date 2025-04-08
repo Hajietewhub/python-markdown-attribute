@@ -1,5 +1,7 @@
 # Markdown attribute modifier (MAM)
 
+(Original Vietnamese below)
+ 
 _Markdown attribute modifier (MAM) is a Python tool designed to automate the modification of date (`pubDatetime`) and cover image (`image`) attributes in Markdown files. It streamlines content updates by processing multiple files efficiently, supporting custom inputs for directories, line numbers, and URLs, with sensible defaults for ease of use. Ideal for bloggers and content managers._
 
 ## Installation Guide

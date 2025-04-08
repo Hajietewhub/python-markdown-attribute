@@ -1,7 +1,7 @@
 {
 	"name": "markdown-attribute",
 	"version": "1.0.7",
-	"description": "Công cụ cập nhật ngày tháng, ảnh bìa trên bài viết markdown thông qua trình tệp lệnh.",
+	"description": "Công cụ sửa thuộc tính markdown (MAM) là một tiện ích Python tự động hóa việc thay đổi thuộc tính ngày tháng (pubDatetime) và ảnh bìa (image) trong tệp Markdown.",
 	"main": "index.js",
 	"scripts": {
 		"start": "node index.js",
