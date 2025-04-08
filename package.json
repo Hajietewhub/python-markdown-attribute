@@ -1,29 +1,29 @@
 {
-  "name": "markdown-adjust",
-  "version": "1.0.6",
-  "description": "Công cụ cập nhật ngày tháng, ảnh bìa trên bài viết markdown thông qua trình tệp lệnh.",
-  "main": "index.js",
-  "bin": {
-    "article-markdown": "./bin/cli.js"
-  },
-  "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "markdown",
-    "python",
-    "npm"
-  ],
-  "repository": {
-    "type": "website",
-    "url": "https://nhavantuonglai.com"
-  },
-  "author": "nhavantuonglai",
-  "license": "MIT",
-  "dependencies": {
-  },
-  "engines": {
-    "node": ">=14.0.0"
-  }
+	"name": "markdown-adjust",
+	"version": "1.0.6",
+	"description": "Công cụ cập nhật ngày tháng, ảnh bìa trên bài viết markdown thông qua trình tệp lệnh.",
+	"main": "index.js",
+	"bin": {
+		"article-markdown": "./bin/cli.js"
+	},
+	"scripts": {
+		"start": "node index.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"markdown",
+		"python",
+		"npm"
+	],
+	"repository": {
+		"type": "website",
+		"url": "https://nhavantuonglai.com"
+	},
+	"author": "nhavantuonglai",
+	"license": "MIT",
+	"dependencies": {
+	},
+	"engines": {
+		"node": ">=14.0.0"
+	}
 }
