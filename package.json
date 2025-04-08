@@ -1,6 +1,6 @@
 {
   "name": "markdown-adjust",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "Công cụ cập nhật ngày tháng, ảnh bìa trên bài viết markdown thông qua trình tệp lệnh.",
   "main": "index.js",
   "bin": {
@@ -17,7 +17,7 @@
   ],
   "repository": {
     "type": "website",
-    "url": "https://nhavantuonglai.com/"
+    "url": "https://nhavantuonglai.com"
   },
   "author": "nhavantuonglai",
   "license": "MIT",
