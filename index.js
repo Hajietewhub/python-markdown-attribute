@@ -3,7 +3,7 @@ const path = require('path');
 
 function runMarkdownProcessor(args) {
   return new Promise((resolve, reject) => {
-	const pythonPath = path.join(__dirname, 'markdown_processor.py');
+	const pythonPath = path.join(__dirname, 'index.py');
 	const pythonProcess = spawn('python', [pythonPath, ...args]);
 
 	let output = '';
