@@ -1,5 +1,5 @@
 {
-  "name": "markdown",
+  "name": "markdown-adjust",
   "version": "1.0.4",
   "description": "Công cụ cập nhật ngày tháng, ảnh bìa trên bài viết markdown thông qua trình tệp lệnh.",
   "main": "index.js",
