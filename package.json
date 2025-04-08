@@ -1,16 +1,21 @@
 {
-  "name": "markdown-npm-lib",
+  "name": "article-markdown",
   "version": "1.0.0",
-  "description": "A Node.js library to process markdown files with Python",
+  "description": "Công cụ cập nhật ngày tháng, ảnh bìa trên bài viết markdown thông qua trình tệp lệnh.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["markdown", "python", "npm"],
-  "author": "Your Name",
+  "keywords": [
+    "markdown",
+    "python",
+    "npm"
+  ],
+  "author": "nhavantuonglai",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+  },
   "engines": {
     "node": ">=14.0.0"
   }
