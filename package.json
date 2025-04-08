@@ -1,0 +1,17 @@
+{
+  "name": "markdown-npm-lib",
+  "version": "1.0.0",
+  "description": "A Node.js library to process markdown files with Python",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["markdown", "python", "npm"],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {},
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
