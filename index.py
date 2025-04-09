@@ -9,14 +9,14 @@ import webbrowser
 def messages(msg_type, *args, return_string=False):
 	messages_dict = {
 		"welcome": "Markdown attribute modifier là công cụ cập nhật ngày tháng, ảnh bìa trên bài viết markdown thông qua trình tệp lệnh, được phát triển bởi @nhavantuonglai.\nCông cụ giúp cập nhật nội dung nhanh chóng, hỗ trợ tùy chỉnh thư mục, số dòng và URL, với các giá trị mặc định tiện lợi.\nHỗ trợ kỹ thuật: info@nhavantuonglai.com.",
-		"features": "Bước 1: Chọn tính năng:\n1. Thay đổi hình ảnh.\n2. Thay đổi ngày tháng.\n0. Thao tác lại từ đầu.",
+		"features": "Bước 1: Chọn tính năng\n1. Thay đổi hình ảnh.\n2. Thay đổi ngày tháng.\n0. Thao tác lại từ đầu.",
 		"feature-prompt": "Vui lòng chọn tính năng: ",
 		"feature-invalid": "Thao tác chọn không hợp lệ.\nVui lòng chọn lại tính năng: ",
-		"directory-prompt": "Bước 2: Nhập đường dẫn thư mục.\nMặc định sử dụng folder đang thao tác.\n0. Lùi lại 1 bước.\nVui lòng chọn tính năng: ",
+		"directory-prompt": "Bước 2: Nhập đường dẫn thư mục\nMặc định sử dụng folder nếu bỏ qua.\n0. Quay lại bước trước.\nVui lòng chọn tính năng: ",
 		"directory-invalid": "Thư mục {0} không tồn tại.\nVui lòng chọn lại tính năng: ",
-		"prompt-line": "Bước 3: Nhập số dòng cần thay đổi\nSử dụng mặc định nếu bỏ qua.\n0. Lùi lại 1 bước.\nVui lòng chọn tính năng: ",
-		"prompt-url": "Bước 4: Nhập URL ảnh mẫu\nSử dụng mặc định nếu bỏ qua.\n0. Lùi lại 1 bước.\nVui lòng chọn tính chức năng: ",
-		"prompt-date": "Bước 4: Nhập ngày mới nhất của tệp\nSử dụng ngày hôm nay nếu bỏ qua.\n0. Lùi lại 1 bước.\nVui lòng chọn tính năng: ",
+		"prompt-line": "Bước 3: Nhập số dòng cần thay đổi\nMặc định theo hệ thống nếu bỏ qua.\n0. Quay lại bước trước.\nVui lòng chọn tính năng: ",
+		"prompt-url": "Bước 4: Nhập URL ảnh mẫu\nMặc định theo hệ thống nếu bỏ qua.\n0. Quay lại bước trước.\nVui lòng chọn tính chức năng: ",
+		"prompt-date": "Bước 4: Nhập ngày mới nhất của tệp\nMặc định ngày hôm nay nếu bỏ qua.\n0. Quay lại bước trước.\nVui lòng chọn tính năng: ",
 		"invalid-date": "Định dạng ngày không hợp lệ.\nVui lòng chọn lại tính năng: ",
 		"processing": "Đang xử lý…",
 		"processed-image": "Đã xử lý tệp: {0} - Số ảnh: {1}.",
@@ -25,7 +25,7 @@ def messages(msg_type, *args, return_string=False):
 		"file-error": "Không thể xử lý {0}/{1} tệp.",
 		"complete-image": "Xử lý cover thành công. Đã cập nhật {0}/{1} tệp.",
 		"complete-date": "Xử lý ngày thành công. Đã cập nhật {0}/{1} tệp.",
-		"prompt-restart": "Cảm ơn bạn đã sử dụng công cụ.\n1. Truy cập nhavantuonglai.com\n2. Truy cập Instagram nhavantuonglai.\n0. Thao tác lại từ đầu.\nVui lòng chọn tính năng: ",
+		"prompt-restart": "Cảm ơn bạn đã sử dụng công cụ.\n1. Truy cập nhavantuonglai.com.\n2. Truy cập Instagram nhavantuonglai.\n0. Thao tác lại từ đầu.\nVui lòng chọn tính năng: ",
 	}
 	message = messages_dict.get(msg_type, "").format(*args)
 	if return_string:
