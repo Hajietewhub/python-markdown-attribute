@@ -1,6 +1,6 @@
 {
 	"name": "markdown-attribute",
-	"version": "1.0.8",
+	"version": "1.0.9",
 	"description": "Markdown attribute modifier (MAM) is a Python tool designed to automate the modification of date (pubDatetime) and cover image (image) attributes in Markdown files.",
 	"main": "index.js",
 	"scripts": {
@@ -15,6 +15,9 @@
 		"image",
 		"datetime",
 		"markdown editor",
+		"markdown attribute",
+		"attribute",
+		"editor",
 		"class",
 		"python script",
 		"python",
