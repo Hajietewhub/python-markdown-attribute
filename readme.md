@@ -9,7 +9,7 @@ _Markdown attribute modifier (MAM) is a Python tool designed to automate the mod
 To install, run the following command in your terminal:
 
 ```
-npm i markdown-attribute
+npm install markdown-attribute
 ```
 
 ## Purpose
@@ -49,7 +49,7 @@ _Công cụ sửa thuộc tính markdown (MAM) là một tiện ích Python tự
 Để cài đặt, chạy lệnh sau trong terminal:
 
 ```
-npm i markdown-attribute
+npm install markdown-attribute
 ```
 
 ## Công dụng
